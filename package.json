@@ -1,0 +1,13 @@
+{
+  "name": "origami-test-suite",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "@graphorigami/origami": "0.0.27"
+  },
+  "scripts": {
+    "start": "ori @serve",
+    "update-blog": "rm -r baseline/blog/*; cp -r ~/Source/blog/dist/* baseline/blog",
+    "test": "ori src/changed.js baseline/blog, ~/Source/blog/dist"
+  }
+}
