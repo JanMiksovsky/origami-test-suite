@@ -1,5 +1,5 @@
 {
-  blog = ~/Source/blog/src/site.graph/public
-  docs = ~/Source/GraphOrigami/docs/src/site.graph
-  family-journal = ~/Source/family-journal/src/site.graph
+  blog = ~/Source/blog/dist
+  docs = ~/Source/GraphOrigami/docs/dist
+  family-journal = ~/Source/family-journal/dist
 }

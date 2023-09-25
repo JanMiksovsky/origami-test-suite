@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "ori @serve",
-    "update-blog": "rm -r baseline/blog/*; cp -r ~/Source/blog/dist/* baseline/blog",
-    "test": "ori src/changed.js baseline/blog, ~/Source/blog/dist"
+    "update": "rm -rf baseline/*; ori @copy src/suite.ori2, @files/baseline",
+    "test": "ori src/changed.js baseline, src/suite.ori2"
   }
 }
