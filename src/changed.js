@@ -20,8 +20,8 @@ export default async function changed(baselineGraphable, currentGraphable) {
         result[key] = treeChanged;
       }
     } else if (baselineValue?.toString && currentValue?.toString) {
-      const baselineText = baselineValue.toString();
-      const currentText = currentValue.toString();
+      const baselineText = baselineValue.toString().trim();
+      const currentText = currentValue.toString().trim();
       if (baselineText !== currentText) {
         result[key] = true;
       }

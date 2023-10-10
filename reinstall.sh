@@ -11,6 +11,6 @@ npm install
 rm -rf node_modules/@graphorigami/types
 rm -rf node_modules/@graphorigami/core
 rm -rf node_modules/@graphorigami/origami
-ln -s ~/Source/GraphOrigami/origami/packages/types node_modules/@graphorigami/types
-ln -s ~/Source/GraphOrigami/origami/packages/core node_modules/@graphorigami/core
-ln -s ~/Source/GraphOrigami/origami/packages/origami node_modules/@graphorigami/origami
+ln -s ~/Source/GraphOrigami/origami/types node_modules/@graphorigami/types
+ln -s ~/Source/GraphOrigami/origami/core node_modules/@graphorigami/core
+ln -s ~/Source/GraphOrigami/origami/origami node_modules/@graphorigami/origami
