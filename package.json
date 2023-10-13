@@ -7,10 +7,10 @@
   },
   "scripts": {
     "update-blog": "rm -rf baseline/blog; cp -r ~/Source/blog/dist baseline/blog",
-    "update-docs": "rm -rf baseline/docs; cp -r ~/Source/docs/dist baseline/docs",
+    "update-docs": "rm -rf baseline/docs; cp -r ~/Source/GraphOrigami/docs/dist baseline/docs",
     "update-journal": "rm -rf baseline/family-journal; cp -r ~/Source/family-journal/dist baseline/family-journal",
     "test-blog": "ori src/changed.js baseline/blog, ~/Source/blog/dist",
-    "test-docs": "ori src/changed.js baseline/docs, ~/Source/docs/dist",
+    "test-docs": "ori src/changed.js baseline/docs, ~/Source/GraphOrigami/docs/dist",
     "test-journal": "ori src/changed.js baseline/family-journal, ~/Source/family-journal/dist"
   }
 }
