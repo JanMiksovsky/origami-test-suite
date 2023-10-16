@@ -5,6 +5,12 @@
     },
     {
       "path": "../docs"
+    },
+    {
+      "path": "../../blog"
+    },
+    {
+      "path": "../../family-journal"
     }
   ],
   "settings": {}

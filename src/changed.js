@@ -1,10 +1,10 @@
-import { Graph } from "@graphorigami/origami";
+import { Tree } from "@graphorigami/origami";
 
 // Given a baseline tree and a current tree, return an object of `true` values
 // for each key that has changed.
-export default async function changed(baselineGraphable, currentGraphable) {
-  const baseline = Graph.from(baselineGraphable);
-  const current = Graph.from(currentGraphable);
+export default async function changed(baselineTreelike, currentTreelike) {
+  const baseline = Tree.from(baselineTreelike);
+  const current = Tree.from(currentTreelike);
 
   const result = {};
   for (const key of await baseline.keys()) {
@@ -12,8 +12,8 @@ export default async function changed(baselineGraphable, currentGraphable) {
     const currentValue = await current.get(key);
 
     if (
-      Graph.isAsyncDictionary(baselineValue) &&
-      Graph.isAsyncDictionary(currentValue)
+      Tree.isAsyncDictionary(baselineValue) &&
+      Tree.isAsyncDictionary(currentValue)
     ) {
       const treeChanged = await changed(baselineValue, currentValue);
       if (Object.keys(treeChanged).length > 0) {
