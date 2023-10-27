@@ -11,10 +11,7 @@ export default async function changed(baselineTreelike, currentTreelike) {
     const baselineValue = await baseline.get(key);
     const currentValue = await current.get(key);
 
-    if (
-      Tree.isAsyncDictionary(baselineValue) &&
-      Tree.isAsyncDictionary(currentValue)
-    ) {
+    if (Tree.isAsyncTree(baselineValue) && Tree.isAsyncTree(currentValue)) {
       const treeChanged = await changed(baselineValue, currentValue);
       if (Object.keys(treeChanged).length > 0) {
         result[key] = treeChanged;
