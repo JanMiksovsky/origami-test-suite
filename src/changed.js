@@ -1,4 +1,4 @@
-import { Tree } from "@graphorigami/origami";
+import { Tree } from "@graphorigami/async-tree";
 
 // Given a baseline tree and a current tree, return an object of `true` values
 // for each key that has changed.

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "dependencies": {
-    "@graphorigami/origami": "0.0.27"
+    "@graphorigami/origami": "https://gitpkg.now.sh/GraphOrigami/origami/origami?10f43737"
   },
   "scripts": {
     "update-blog": "rm -rf baseline/blog; cp -r ~/Source/blog/dist baseline/blog",
