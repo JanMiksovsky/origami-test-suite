@@ -1,0 +1,1 @@
+@map(projects.yaml, (path, name) => @files(`${ projects.yaml(name) }/build`))

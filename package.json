@@ -6,13 +6,8 @@
     "@weborigami/origami": "0.0.35"
   },
   "scripts": {
-    "update-blog": "rm -rf baseline/blog; cp -r ~/Source/blog/dist baseline/blog",
-    "update-docs": "rm -rf baseline/docs; cp -r ~/Source/GraphOrigami/docs/dist baseline/docs",
-    "update-journal": "rm -rf baseline/family-journal; cp -r ~/Source/family-journal/dist baseline/family-journal",
-    "test-blog": "ori src/changed.js baseline/blog, ~/Source/blog/dist",
-    "test-docs": "ori src/changed.js baseline/docs, ~/Source/GraphOrigami/docs/dist",
-    "test-journal": "ori src/changed.js baseline/family-journal, ~/Source/family-journal/dist",
-    "test-live-docs": "ori src/changed.js baseline/docs, src/docs.ori",
-    "test-live-blog": "ori src/changed.js baseline/blog, src/blog.ori"
+    "build-all": "ori buildAll.ori/",
+    "update-all-im-sure": "rm -rf baseline; ori updateAll.ori/",
+    "test-all": "ori @changes baseline, allBuilds.ori"
   }
 }
