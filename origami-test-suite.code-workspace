@@ -1,16 +1,50 @@
 {
   "folders": [
     {
+      "name": "origami-test-suite",
       "path": "."
     },
     {
-      "path": "../docs"
+      "name": "all-city-someday",
+      "path": "../all-city-someday"
     },
     {
+      "name": "aventour-expeditions",
+      "path": "../aventour-expeditions"
+    },
+    {
+      "name": "blog",
       "path": "../../blog"
     },
     {
+      "name": "docs",
+      "path": "../docs"
+    },
+    {
+      "name": "family-journal",
       "path": "../../family-journal"
+    },
+    {
+      "name": "notes",
+      "path": "../users/jimniels/notes"
+    },
+    {
+      "name": "origami-blog-start",
+      "path": "../origami-blog-start"
+    },
+    {
+      "name": "pondlife",
+      "path": "../pondlife"
+    },
+    {
+      "name": "pondlife-js",
+      "path": "../pondlife-js"
+    },
+    {
+      "path": "../cherokee-myths"
+    },
+    {
+      "path": "../cat-prints-store"
     }
   ],
   "settings": {}

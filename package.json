@@ -6,6 +6,7 @@
     "@weborigami/origami": "0.0.35"
   },
   "scripts": {
+    "audit-all": "ori auditAll.ori/",
     "build-all": "ori buildAll.ori/",
     "update-all-im-sure": "rm -rf baseline; ori updateAll.ori/",
     "test-all": "ori @changes baseline, allBuilds.ori"
