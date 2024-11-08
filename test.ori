@@ -1,4 +1,4 @@
-(name) => @changes(
+(name) => dev:changes(
   baseline(name)
-  @files(`${ projects.yaml(name) }/build`)
+  files:(`${ projects.yaml(name) }/build`)
 )

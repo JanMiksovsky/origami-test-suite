@@ -17,6 +17,14 @@
       "path": "../../blog"
     },
     {
+      "name": "cat-prints-store",
+      "path": "../cat-prints-store"
+    },
+    {
+      "name": "cherokee-myths",
+      "path": "../cherokee-myths"
+    },
+    {
       "name": "docs",
       "path": "../docs"
     },
@@ -39,12 +47,6 @@
     {
       "name": "pondlife-js",
       "path": "../pondlife-js"
-    },
-    {
-      "path": "../cherokee-myths"
-    },
-    {
-      "path": "../cat-prints-store"
     }
   ],
   "settings": {}
