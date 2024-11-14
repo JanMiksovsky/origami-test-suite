@@ -1,4 +1,4 @@
-(name) => dev:changes(
-  baseline(name)
+(name) => changes(
+  scope:baseline(name)
   files:(`${ projects.yaml(name) }/build`)
 )

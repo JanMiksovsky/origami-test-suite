@@ -1,4 +1,4 @@
-(name) => @copy(
-  @files(`${ projects.yaml(name) }/build`)
-  @clean(@files/baseline(name))
+(name) => copy(
+  files:(`${ projects.yaml(name) }/build`)
+  clear(files:baseline(name))
 )

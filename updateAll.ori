@@ -1,1 +1,1 @@
-@copy(allBuilds.ori, @mkdir/baseline)
+copy(allBuilds.ori, files:baseline)
