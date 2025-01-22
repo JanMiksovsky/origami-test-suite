@@ -47,6 +47,10 @@
     {
       "name": "pondlife-js",
       "path": "../pondlife-js"
+    },
+    {
+      "name": "vale.rocks",
+      "path": "../users/declan/vale.rocks"
     }
   ],
   "settings": {}
