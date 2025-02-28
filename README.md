@@ -21,15 +21,15 @@ It’s common for the individual test projects (the sample sites) themselves to 
 
 This project has proven _extremely_ useful in catching tricky bugs in release candidates; a tiny, puzzling text discrepancy in build output has often indicated a serious issue that might not otherwise have been caught for a long time.
 
-## Test suite requirements
+## Test suite project guidelines
 
 _If you’re interested in having your site included in this Origami test suite, [contact me](https://jan.miksovsky.com/contact) to have your project added._
 
 To minimize the work required to run the test suite and to maximize its value as a quality control tool, it’s helpful if all projects in the test suite are built in a consistent way.
 
-* Use npm to build your project. The test suite will call `npm run build`.
+* Your project will be installed via `npm install`. If your project requires any special post-install commands, have those commands invoked automatically via a `postinstall` script. (This is good npm practice anyway.)
+* The test suite will build your project by calling `npm run build`. You yourself can use other build tools (deno, bun), but it’s best if the project can also be built with `npm`.
 * Your project’s build output folder must be called `build`.
 * Your build script can call prebuild and postbuild scripts but shouldn’t rely on other manual processes being triggered before and after a build.
-* _For now, it’s acceptable to have a command that must be run once after `npm install`, but it’s better if that’s done automatically via a postinstall script._
 * Your project’s build should generate no errors or warnings.
-* Avoid random output. This may make your site more interesting to users but adds noise to testing. _If there’s a single page that has random output (one of my projects does) then I can get used to it. But that makes it harder to see real problems, and erodes the value of testing the project in the first place._
+* Avoid generating random output in your builds, as this adds persistent noise to testing. _If there’s a single page that has random output (one of my projects does) then I can get used to it. But that makes it harder to see real problems, and erodes the value of testing the project in the first place._
