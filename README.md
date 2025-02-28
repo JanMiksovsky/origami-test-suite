@@ -4,7 +4,9 @@ This repository is used to verify that [Web Origami](https://weborigami.org) rel
 
 _This project isn’t set up for other people to run yet. E.g., the project hard-codes paths to local copies of each project in the suite. I’m nevertheless publishing this so that people who want to have their projects included in this suite can understand how it works. When other people want to contribute to the Origami code base, I’ll need to invest time making this suite runnable on other people’s machines. –Jan_
 
-The test suite works against a hard-coded list of representative Origami projects of different types. The test suite project relies on two local folders that are _not_ stored in git:
+The test suite works against a hard-coded list of representative Origami projects of different types. In effect, it turns these representative projects into site-scale Origami integration tests.
+
+The test suite project relies on two local folders that are _not_ stored in git:
 
 * A git-ignored `build` folder containing symbolic links to the `build` folders of all the individual test projects. This `build` folder therefore represent a giant tree of the output from the latest individual builds.
 * A git-ignored `baseline` folder containing complete copies of all `build` folders from the _previous_ test suite build. This `baseline` folder is a giant tree of the expected output of all the individual builds.
