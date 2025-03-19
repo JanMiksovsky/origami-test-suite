@@ -51,6 +51,9 @@
     {
       "name": "vale.rocks",
       "path": "../users/declan/vale.rocks"
+    },
+    {
+      "path": "../../wesl"
     }
   ],
   "settings": {}
