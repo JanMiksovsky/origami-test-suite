@@ -45,14 +45,15 @@
       "path": "../pondlife"
     },
     {
-      "name": "pondlife-js",
-      "path": "../pondlife-js"
+      "name": "pondlife-async-tree",
+      "path": "../pondlife-async-tree"
     },
     {
       "name": "vale.rocks",
       "path": "../users/declan/vale.rocks"
     },
     {
+      "name": "wesl",
       "path": "../../wesl"
     }
   ],

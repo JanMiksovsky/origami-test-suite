@@ -1,4 +1,11 @@
-(name) => changes(
-  scope:baseline(name)
-  files:(`${ projects.yaml(name) }/build`)
-)
+(name) =>
+  changes(
+    baseline/(name)
+    files:(projects.yaml(name))/build
+  )
+
+  // Ignore noisy `pagefind` directory
+  → =mask(_, {
+    ...constant(true)
+    pagefind: false
+  })
