@@ -1,1 +1,1 @@
-map(projects.yaml, (path, name) => audit.ori(name))
+Tree.map(projects.yaml, (path, name) => audit.ori(name))

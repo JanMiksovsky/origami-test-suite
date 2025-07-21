@@ -9,8 +9,8 @@ ebook: ~/Source/Origami/japan-hike-ebook
 intro: ~/Source/Origami/language-intro
 journal: ~/Source/family-journal
 myths: ~/Source/Origami/cherokee-myths
-# nick: ~/Source/Origami/users/nsmsn/dotcom
 notes: ~/Source/Origami/users/jimniels/notes
+nsmsn: ~/Source/Origami/users/nsmsn/dotcom
 # omg: ~/Source/Origami/users/jimniels/omg-image
 pondlife: ~/Source/Origami/pondlife
 pondlife-async-tree: ~/Source/Origami/pondlife-async-tree

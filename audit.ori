@@ -1,3 +1,3 @@
-(name) => audit(
-  files:(`${ projects.yaml(name) }/build`)
+(name) => Origami.audit(
+  Origami.files(`${ projects.yaml(name) }/build`)
 )

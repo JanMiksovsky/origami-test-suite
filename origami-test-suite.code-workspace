@@ -25,12 +25,20 @@
       "path": "../cherokee-myths"
     },
     {
+      "name": "comics",
+      "path": "../comics"
+    },
+    {
       "name": "docs",
       "path": "../docs"
     },
     {
       "name": "family-journal",
       "path": "../../family-journal"
+    },
+    {
+      "name": "japan-hike-ebook",
+      "path": "../japan-hike-ebook"
     },
     {
       "name": "notes",
@@ -55,6 +63,9 @@
     {
       "name": "wesl",
       "path": "../../wesl"
+    },
+    {
+      "path": "../users/nsmsn/dotcom"
     }
   ],
   "settings": {}

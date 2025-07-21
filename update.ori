@@ -1,4 +1,4 @@
-(name) => copy(
-  files:(`${ projects.yaml(name) }/build`)
-  clear(files:baseline(name))
+(name) => Dev.copy(
+  Protocol.files(`${ projects.yaml(name) }/build`)
+  Tree.clear(baseline/(name))
 )
