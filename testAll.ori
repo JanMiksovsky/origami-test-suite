@@ -1,7 +1,9 @@
 Dev.changes(baseline, allBuilds.ori)
 
 // Ignore noisy `pagefind` directory
-→ (delta) => Tree.mask(delta, {
-  ...Tree.constant(true)
-  pagefind: false
-})
+→ (delta) => delta && Tree.map(delta, (project) =>
+  Tree.mask(project, {
+    ...Tree.constant(true)
+    pagefind: false
+  })
+)
