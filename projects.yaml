@@ -1,3 +1,4 @@
+about-us: ~/Source/Origami/about-us
 all-city: ~/Source/Origami/all-city-someday
 aventour: ~/Source/Origami/aventour-expeditions
 blog: ~/Source/blog
@@ -6,7 +7,6 @@ cats: ~/Source/Origami/cat-prints-store
 comics: ~/Source/Origami/comics
 docs: ~/Source/Origami/docs
 ebook: ~/Source/Origami/japan-hike-ebook
-intro: ~/Source/Origami/language-intro
 journal: ~/Source/family-journal
 myths: ~/Source/Origami/cherokee-myths
 notes: ~/Source/Origami/users/jimniels/notes
@@ -14,6 +14,7 @@ nsmsn: ~/Source/Origami/users/nsmsn/dotcom
 # omg: ~/Source/Origami/users/jimniels/omg-image
 pondlife: ~/Source/Origami/pondlife
 pondlife-async-tree: ~/Source/Origami/pondlife-async-tree
+sashinexists: ~/Source/Origami/users/sashin/sashinexists
 start: ~/Source/Origami/origami-start
 vale.rocks: ~/Source/Origami/users/declan/vale.rocks
 wesl: ~/Source/wesl

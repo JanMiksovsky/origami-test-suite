@@ -33,6 +33,10 @@
       "path": "../docs"
     },
     {
+      "name": "dotcom",
+      "path": "../users/nsmsn/dotcom"
+    },
+    {
       "name": "family-journal",
       "path": "../../family-journal"
     },
@@ -63,9 +67,6 @@
     {
       "name": "wesl",
       "path": "../../wesl"
-    },
-    {
-      "path": "../users/nsmsn/dotcom"
     }
   ],
   "settings": {}
