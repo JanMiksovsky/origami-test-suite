@@ -1,3 +1,1 @@
-Tree.map(projects.yaml, (path, name) =>
-  Protocol.files(`${ projects.yaml(name) }/build`)
-)
+Tree.map(projects.yaml, (path) => Protocol.files(path)/build)

@@ -1,1 +1,3 @@
-(name) => Origami.shell(`pushd ${projects.yaml(name)}; npm run build`)
+(name) =>
+  Origami.shell(`pushd ${ projects.yaml(name) }; npm run build`)
+  -> messages.js/
