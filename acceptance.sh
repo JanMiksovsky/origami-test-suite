@@ -10,3 +10,6 @@ node --test --test-reporter=./failures-only.js ~/Source/Origami/extensions/**/te
 
 # Projector
 node --test --test-reporter=./failures-only.js ~/Source/Origami/projector/test/**/*.test.js
+
+# VS Code extension -- note `.mjs`
+node --test --test-reporter=./failures-only.js ~/Source/Origami/origami-vscode-extension/test/**/*.test.mjs
