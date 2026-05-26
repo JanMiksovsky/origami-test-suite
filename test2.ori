@@ -1,0 +1,11 @@
+(name) =>
+  Dev.changes2(
+    baseline/(name)
+    Protocol.files(projects.yaml[name]).build
+  )
+
+  // Ignore noisy `pagefind` directory
+  → (delta) => delta && Tree.mask(delta, {
+      ...Tree.constant(true)
+      pagefind: false
+    })
