@@ -1,0 +1,17 @@
+(name) =>
+  Tree.keys(Protocol.files(projects.yaml(name))/package.json/scripts)
+
+  // Find build script in decreasing order of specificity
+  -> (scripts) => Tree.find(
+    [
+      "build:origami"
+      "build:ori"
+      "build-origami"
+      "build-ori"
+      "build:site"
+      "build-site"
+      "build"
+    ]
+    (command) => scripts.includes(command))
+
+  -> (command) => `npm run ${ command }`
