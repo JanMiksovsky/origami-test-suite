@@ -1,1 +1,5 @@
-Tree.map(projects.yaml, (path) => Protocol.files(path)/build)
+Tree.mapExtension(projects.yaml, {
+  // Add trailing slash so keys match the keys of the baseline folder
+  extension: "→/"
+  value: (path) => Protocol.files(path)/build
+})

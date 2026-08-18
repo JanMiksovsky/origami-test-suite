@@ -2,72 +2,75 @@
   "folders": [
     {
       "name": "origami-test-suite",
-      "path": "."
+      "path": ".",
     },
     {
       "name": "all-city-someday",
-      "path": "../all-city-someday"
+      "path": "../all-city-someday",
     },
     {
       "name": "aventour-expeditions",
-      "path": "../aventour-expeditions"
+      "path": "../aventour-expeditions",
     },
     {
       "name": "blog",
-      "path": "../../blog"
+      "path": "../../blog",
     },
     {
       "name": "cat-prints-store",
-      "path": "../cat-prints-store"
+      "path": "../cat-prints-store",
     },
     {
       "name": "cherokee-myths",
-      "path": "../cherokee-myths"
+      "path": "../cherokee-myths",
     },
     {
       "name": "comics",
-      "path": "../comics"
+      "path": "../comics",
     },
     {
       "name": "docs",
-      "path": "../docs"
+      "path": "../docs",
     },
     {
       "name": "dotcom",
-      "path": "../users/nsmsn/dotcom"
+      "path": "../users/nsmsn/dotcom",
     },
     {
       "name": "family-journal",
-      "path": "../../family-journal"
+      "path": "../../family-journal",
     },
     {
       "name": "japan-hike-ebook",
-      "path": "../japan-hike-ebook"
+      "path": "../japan-hike-ebook",
     },
     {
       "name": "notes",
-      "path": "../users/jimniels/notes"
+      "path": "../users/jimniels/notes",
     },
     {
       "name": "origami-blog-start",
-      "path": "../origami-blog-start"
+      "path": "../origami-blog-start",
     },
     {
       "name": "pondlife",
-      "path": "../pondlife"
+      "path": "../pondlife",
     },
     {
       "name": "pondlife-async-tree",
-      "path": "../pondlife-async-tree"
+      "path": "../pondlife-async-tree",
     },
     {
       "name": "vale.rocks",
-      "path": "../users/declan/vale.rocks"
+      "path": "../users/declan/vale.rocks",
     },
     {
       "name": "wesl",
-      "path": "../../wesl"
-    }
+      "path": "../../wesl",
+    },
+    {
+      "path": "../users/stephan/website",
+    },
   ],
-  "settings": {}
+  "settings": {},
 }
