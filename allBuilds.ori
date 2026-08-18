@@ -1,5 +1,6 @@
-Tree.mapExtension(projects.yaml, {
+Tree.map(projects.yaml, {
   // Add trailing slash so keys match the keys of the baseline folder
-  extension: "→/"
+  key: (_, key) => Origami.slash.add(key)
+  keyNeedsSourceValue: false
   value: (path) => Protocol.files(path)/build
 })
